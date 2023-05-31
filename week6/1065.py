@@ -18,9 +18,9 @@ for num in range(0, N):
     if len(str(num)) == 1:
         if num != 0:
             target_list.append(True)
-    # 두 자리 수 이상
-    else:
-        if check(num):
-            target_list.append(True)
-    
-print(len(target_list))
+        # 두 자리 수 이상
+        else:
+            if check(num):
+                target_list.append(True)
+        
+    print(len(target_list))
